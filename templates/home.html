@@ -1,0 +1,10 @@
+<h1> WORD COUNT APP </h1>
+
+{{ status }}
+
+<form action="{% url 'count' %}">
+  <textarea name="fulltext" rows="20" cols="60"></textarea>
+  <br />
+  <input type="submit" value="COUNT" />
+</form>
+  
